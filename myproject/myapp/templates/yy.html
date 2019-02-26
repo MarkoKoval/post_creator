@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+         {% if documents %}
+<div class="main-flex">
+{% for document in documents %}
+
+
+        <div class="flex-container">
+
+            <div   id = "post" class="card" >
+          <img class="card-img-top ivan" width="300" height="300" style="overflow: hidden" src="{{ document.docfile.url }}">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+
+              {% for tag in document.search_tags.all %}
+                        <a href="{{tag.get_absolute_url}}">{{  tag.title }}</a>
+                    {% endfor %}
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+
+    {% endfor %}
+</div>
+{% endif %}
+<div class="pagination">
+    <span class="step-links">
+        {% if documents.has_previous %}
+            <a href="/page/1">&laquo; first</a>
+            <a href="/page/{{ documents.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ documents.number }} of {{ documents.paginator.num_pages }}.
+        </span>
+
+        {% if documents.has_next %}
+            <a href="/page/{{ documents.next_page_number }}">next</a>
+            <a href="/page/{{ documents.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+<div class="pagination">
+    <span class="step-links">
+        {% if documents.has_previous %}
+            <a href="/page/1">&laquo; first</a>
+            <a href="/page/{{ documents.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ documents.number }} of {{ documents.paginator.num_pages }}.
+        </span>
+
+        {% if documents.has_next %}
+            <a href="/page/{{ documents.next_page_number }}">next</a>
+            <a href="/page/{{ documents.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+
+</body>
+</html>

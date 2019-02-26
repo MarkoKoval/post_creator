@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Minimal Django File Upload Example</title>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel = "stylesheet" href="static/style111.css">
+    </head>
+
+
+<body>
+
+<style>
+
+    .main-flex {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container>div {
+  height: 400px;
+  width: 250px;
+  border: 1px solid black;
+}
+
+.flex-container:nth-child(2)>span {
+  align-self: flex-end;
+}
+</style>
+
+{% load static %}
+
+{% block extrahead %}
+    <link rel="stylesheet" href="{% static "style111.css" %}">
+{% endblock %}
+         {% if documents %}
+<div class="main-flex">
+{% for document in documents %}
+
+
+        <div class="flex-container">
+
+            <div   id = "daq" class="card" >
+          <img class="card-img-top" width="300" height="300" style="overflow: hidden" src="{{ document.docfile.url }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ document.title|truncatechars:20 }}</h5>
+            <p class="card-text">{{ document.description|truncatechars:30 }}
+            </p>
+
+              {% for tag in document.search_tags.all %}
+                        <a href="{{tag.get_absolute_url}}">{{  tag.title }}</a>
+                    {% endfor %}
+                <br>
+              <a  class="btn btn-primary" href = "{{ document.get_absolute_url }}">Delete Post</a>
+              <a  class="btn btn-primary" href = "">Show Post</a>
+          </div>
+        </div>
+        </div>
+
+    {% endfor %}
+</div>
+{% endif %}
+
+  {% if documents_length > 12 %}
+ {% if documents.has_previous %}
+        <a class="btn btn-outline-info mb-4" href="art/1">First</a>
+        <a class="btn btn-outline-info mb-4" href="/art/{{ documents.previous_page_number }}">Previous</a>
+      {% endif %}
+
+      {% for num in documents.paginator.page_range %}
+        {% if documents.number == num %}
+          <a class="btn btn-info mb-4" href="/art/{{ num }}">{{ num }}</a>
+        {% elif num > documents.number|add:'-3' and num < documents.number|add:'3' %}
+          <a class="btn btn-outline-info mb-4" href="/art/{{ num }}">{{ num }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if documents.has_next %}
+        <a class="btn btn-outline-info mb-4" href="/art/{{ documents.next_page_number }}">Next</a>
+        <a class="btn btn-outline-info mb-4" href="/art/{{ documents.paginator.num_pages }}">Last</a>
+      {% endif %}
+ {% endif %}
+<a class="btn btn-primary" href="{% url 'create' %}">Create Post </a>
+
+
+
+<script type='text/javascript'>
+
+    $(document).ready(function(){
+    $('form').on('submit', function(e){
+        e.preventDefault();
+        alert("hee");
+        alert($('form').get(0));
+        var data = new FormData($('form').get(0));
+        var token = '{{csrf_token}}';
+         var form = $('#your_form_id');
+        $.ajax({
+            headers: { "X-CSRFToken": token },
+            url: $('form').attr('action'),
+            method: "POST",
+            data: data,
+            dataType: 'json',
+            success: function(data){printValues(data);
+            location.reload();},
+            error: function(data){  alert("he");},
+            processData: false,
+            contentType: false,
+        });
+    });
+});
+
+
+
+$(".js-example-tokenizer").select2({
+    tags: true,
+     maximumSelectionLength: 3,
+    tokenSeparators: [','],
+    width: '192px',
+    placeholder: 'Select Country'
+
+}).on('select2:select', function (evt) {
+   // console.log(evt);
+  //  alert(evt.tag.term)
+
+     //    alert( $(this).find(":selected").eq(-1).text()); get last
+
+   /* $("#sel option").each(function() {
+    alert($(this).val());
+});*/
+  //  $("#console").append('Tag selected? ' + (evt.params.data.tag == true) + '<br />');
+}).on('select2:unselecting', function (e) {
+    //alert('You clicked on X');
+});
+
+ function printValues(obj) {
+     for (var key in obj) {
+         if (typeof obj[key] === "object") {
+             print(obj[key]);
+         } else {
+             alert(obj[key]);
+         }
+     }
+ }
+
+function print(obj) {
+     for (var key in obj) {
+         if (typeof obj[key] === "object") {
+             alert(obj[key]);
+         } else {
+             alert(obj[key]);
+         }
+     }
+ }
+
+
+</script>
+</body>
+</html>

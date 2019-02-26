@@ -1,0 +1,39 @@
+#pot{
+     margin: 15px 5px 5px 10px;
+     min-width: 300px;
+
+     max-width: 500px;
+     max-height: 1000px;
+}
+#daq{
+     margin: 10px 10px 10px 10px;
+     min-width: 300px;
+     min-height: 500px;
+     max-width: 500px;
+     max-height: 1000px;
+}
+.img{
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container:nth-child(2)>span {
+  align-self: flex-end;
+}
+
+.main-flex {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
