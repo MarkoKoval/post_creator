@@ -57,17 +57,6 @@ def get_posts_by_tags(request, title):
     return render(request, "show_by_title.html",context={'documents': documents})
 
 
-def listing(request,id):
-    try:
-        print(1)
-        contact_list = Document.objects.all()
-        paginator = Paginator(contact_list, 5)  # Show 25 contacts per page
-
-        documents = paginator.get_page(id)
-    except Exception as ex:
-        print("Exept")
-    return render(request, 'list111.html', {'documents': documents})
-
 
 def PostList(request):
     try:
@@ -75,7 +64,6 @@ def PostList(request):
         if request.method == 'POST':
 
             form = DocumentForm(request.POST, request.FILES)
-            print(1)
             if form.is_valid():
                 title = request.POST.get('title_').strip() if len(request.POST.get('title_').strip()) != 0 else "default title"
                 desciption = request.POST.get('description1').strip()  if len(request.POST.get('description1').strip() ) != 0 else "default description"
@@ -96,10 +84,6 @@ def PostList(request):
                 print(2)
 
 
-
-                # Render list page with the documents and the form
-                #return render(request, 'list.html', {'documents': documents, 'form': form})
-                # Redirect to the document list after POST
                 return HttpResponseRedirect(reverse('list'))
         else:
             form = DocumentForm() # A empty, unbound form
