@@ -99,31 +99,8 @@
 
 <script type='text/javascript'>
 
-    $(document).ready(function(){
-    $('form').on('submit', function(e){
-        e.preventDefault();
-        alert("hee");
-        alert($('form').get(0));
-        var data = new FormData($('form').get(0));
-        var token = '{{csrf_token}}';
-         var form = $('#your_form_id');
-        $.ajax({
-            headers: { "X-CSRFToken": token },
-            url: $('form').attr('action'),
-            method: "POST",
-            data: data,
-            dataType: 'json',
-            success: function(data){printValues(data);
-            location.reload();},
-            error: function(data){  alert("he");},
-            processData: false,
-            contentType: false,
-        });
-    });
-});
 
-
-
+    
 $(".js-example-tokenizer").select2({
     tags: true,
      maximumSelectionLength: 3,
@@ -132,39 +109,10 @@ $(".js-example-tokenizer").select2({
     placeholder: 'Select Country'
 
 }).on('select2:select', function (evt) {
-   // console.log(evt);
-  //  alert(evt.tag.term)
 
-     //    alert( $(this).find(":selected").eq(-1).text()); get last
-
-   /* $("#sel option").each(function() {
-    alert($(this).val());
-});*/
-  //  $("#console").append('Tag selected? ' + (evt.params.data.tag == true) + '<br />');
 }).on('select2:unselecting', function (e) {
-    //alert('You clicked on X');
+
 });
-
- function printValues(obj) {
-     for (var key in obj) {
-         if (typeof obj[key] === "object") {
-             print(obj[key]);
-         } else {
-             alert(obj[key]);
-         }
-     }
- }
-
-function print(obj) {
-     for (var key in obj) {
-         if (typeof obj[key] === "object") {
-             alert(obj[key]);
-         } else {
-             alert(obj[key]);
-         }
-     }
- }
-
 
 </script>
 </body>
