@@ -10,14 +10,15 @@ from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.http import JsonResponse
 from django.shortcuts import redirect
 
-def cr(request,id):
+
+def cr( request, id):
     try:
-        doc = Document.objects.get(id = id).delete()
+        Document.objects.get(id = id).delete()
         response = redirect('list3', id = id)
     except Exception as ex:
         print("Exept")
     return response
-   # return render(request, 'list.html', {'d':doc})
+
 
 def GetP(request,id):
     try:
@@ -28,16 +29,16 @@ def GetP(request,id):
 
         documents = paginator.get_page(id)
 
-        print(Document.objects.all().count())
-        print("efewfewe")
         # Render list page with the documents and the form
     except Exception as ex:
         print("Exept")
     return render(request, 'list.html', {'documents': documents , 'documents_length':Document.objects.all().count()})
 
+
 def redirector(request):
     response = redirect('art/1')
     return response
+
 
 def render_create_post(request):
     try:
@@ -51,7 +52,6 @@ def post_detail(request, title):
     try:
         print(title)
         documents = Document.objects.filter(search_tags__title__in = [title])
-        print("post_detail")
     except Exception as ex:
         print("Exept")
     return render(request, "show_by_title.html",context={'documents': documents})
@@ -164,9 +164,7 @@ def aj(request):
 
 def create_post(request):
     try:
-        form = DocumentForm()
         documents = Document.objects.all()
     except Exception as ex:
         print("Exept")
-    # Render list page with the documents and the form
     return render(request, 'list.html', {'documents': documents, 'documents_length':Document.objects.all().count()})
