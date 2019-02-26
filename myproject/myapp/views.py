@@ -15,7 +15,7 @@ def delete_post_by_id( request, id):
         Document.objects.get(id = id).delete()
         response = redirect('get_posts_by_paginator', id = 1)
     except Exception as ex:
-        print("Exept")
+        print("Exeption {}".format(ex))
     return response
 
 
@@ -28,7 +28,7 @@ def get_posts_by_paginator(request,id):
 
         documents = paginator.get_page(id)
     except Exception as ex:
-        print("Exept")
+        print("Exeption {}".format(ex))
     return render(request, 'list.html', {'documents': documents , 'documents_length':Document.objects.all().count()})
 
 
@@ -43,16 +43,15 @@ def create_new_post(request):
     try:
         form = DocumentForm()
     except Exception as ex:
-        print("Exept ")
+        print("Exeption {}".format(ex))
     return render(request, "add_new_post.html",  {'form': form})
 
 
 def get_posts_by_tags(request, title):
     try:
-        print(title)
         documents = Document.objects.filter(search_tags__title__in = [title])
     except Exception as ex:
-        print("Exept")
+        print("Exeption {}".format(ex))
     return render(request, "show_by_title.html",context={'documents': documents})
 
 
@@ -90,7 +89,7 @@ def handle_form(request):
 
         # Render list page with the documents and the form
     except Exception as ex:
-        print("Exept11")
+        print("Exeption {}".format(ex))
         print(ex)
     response = redirect('page/1')
     return response
