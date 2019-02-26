@@ -33,6 +33,8 @@ def get_posts_by_paginator(request,id):
 
 
 def get_posts_by_paginator_redirector(request):
+    #Document.objects.all().delete()
+    #Tag.objects.all().delete()
     response = redirect('page/1')
     return response
 

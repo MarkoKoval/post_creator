@@ -4,14 +4,140 @@
     <list default="true" id="2488f45c-fcb4-4ac7-81fe-8d3924788121" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myapp/templates/add_new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/templates/add_new_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myapp/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/09/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/09/images_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/09/lena_hue120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/10/temp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/download_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/images_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/lena_hue120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/temp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/temp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/11/temp1_lWnpvnR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/12/images_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/download_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/download_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/download_2_egEvd4P.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/download_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/images_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/images_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/images_3_IuQ1fw1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_0cA4Adq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_7mHefVZ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_BjX3nke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_FAp4RbD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_ImhpTaS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_RtzGKS4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_YVIWsGx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_bbpZhRd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_cQsGAYI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_eWRo2JS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_fB0JbhG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_fO99XjX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_go51YLZ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_ivIClEn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_jT6vGI6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_lp8KVpC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_pgEi6jB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/13/temp_xHwrfMU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1_3VIGBJC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1_3nbKiDy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1_5c5t9es.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1_5psGX22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1_C0lLyhJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1_CfgkZ9D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1_kBpDhLl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_1_ufUjTxM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_2_Jfuf3mL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_2_cVLYRWA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/download_2_zXMaQXz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/eee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/images_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/images_1_Yz6NmZj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/images_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/lena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/lena_9AcB0UU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/lena_lQQnYro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/temp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/temp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/temp1_U1O2Y9z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/temp1_VNxw6NZ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/temp_4qzRlO4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/15/temp_wFc04gP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/21/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/21/download_6bznPG1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/22/Capture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/22/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/23/Capture1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/23/Capture1_8F2zKkY.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/23/Capture1_VXzUG0C.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/23/Capture1_plDRS3R.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/23/Capture1_y5qWQ1F.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/23/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/23295.html.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_33FQrab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_4jqxgXS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_5bhNRy4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_6K6aWKJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_DSJbYAI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_FylaBHQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_FymFAP1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_MOFYm0c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_b2TO3Fv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_b4JvXRo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_d0CyErI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_e660Pcl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_eCXq77z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_ht9DWnX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_ikttsbY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_j01g0Wv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_kgsnS85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_lRPtBH6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_ltpuHwF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_mthau18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_od8MvWr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_ps0gBiF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_qFmgABV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_xpgBA2U.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/download_yCLlORd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/25/photo_2018-10-11_21-10-38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_1HKDcnm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_1YPpuQ9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_6KbL4rW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_6traJxN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_CYz8NEX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_Iw0uniG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_MtRouXe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_PEmaBUL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_VNv0XSs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_YTohXFM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_aRWq9Im.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_bSmmMzV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_bdjCuz7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_eZyg6vC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_g1ZRzVj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_iM5DERI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_lwU7aaw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_n14mdMG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_q21hQDm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_qiATiCJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_uQt3qd4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_w3euNNR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_wrckoPd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_xP0QFbU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/media/documents/2019/02/26/download_zhYmaxh.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +165,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/myapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -52,19 +178,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/myapp/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/myapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+            <state relative-caret-position="85">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -75,10 +192,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/myapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="272">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/myapp/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +217,7 @@
         <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/add_new_post.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="43" />
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -96,10 +225,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/show_by_title.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+            <state relative-caret-position="258">
+              <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myproject/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -114,17 +257,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -164,18 +298,19 @@
         <option value="$PROJECT_DIR$/myproject/myapp/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/myproject/myapp/templates/ere.html" />
         <option value="$PROJECT_DIR$/myproject/myapp/templates/list111.html" />
-        <option value="$PROJECT_DIR$/myproject/myapp/templates/show_by_title.html" />
         <option value="$PROJECT_DIR$/myproject/myapp/templates/add_new_post.html" />
-        <option value="$PROJECT_DIR$/myproject/myapp/views.py" />
         <option value="$PROJECT_DIR$/myproject/myapp/urls.py" />
-        <option value="$PROJECT_DIR$/myproject/myapp/templates/list.html" />
         <option value="$PROJECT_DIR$/myproject/myapp/models.py" />
+        <option value="$PROJECT_DIR$/myproject/myapp/templates/list.html" />
+        <option value="$PROJECT_DIR$/myproject/myapp/templates/show_by_title.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/myproject/myapp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="227" />
-    <option name="width" value="1587" />
+    <option name="x" value="92" />
+    <option name="width" value="1075" />
     <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -196,46 +331,6 @@
               <item name="for_django_2-0" type="b2602c69:ProjectViewProjectNode" />
               <item name="for_django_2-0" type="462c0819:PsiDirectoryNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for_django_2-0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for_django_2-0" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for_django_2-0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for_django_2-0" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for_django_2-0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for_django_2-0" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for_django_2-0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for_django_2-0" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for_django_2-0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for_django_2-0" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for_django_2-0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for_django_2-0" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="for_django_2-0" type="b2602c69:ProjectViewProjectNode" />
@@ -351,7 +446,7 @@
       <workItem from="1551171372539" duration="3092000" />
       <workItem from="1551174531186" duration="6035000" />
       <workItem from="1551181174912" duration="552000" />
-      <workItem from="1551185132901" duration="2704000" />
+      <workItem from="1551185132901" duration="4101000" />
     </task>
     <task id="LOCAL-00001" summary="Could upload files and text async">
       <created>1548186524235</created>
@@ -392,7 +487,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200514000" />
+    <option name="totallyTimeSpent" value="201911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,10 +499,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="0" width="1269" height="831" extended-state="0" />
-    <editor active="true" />
+    <frame x="74" y="0" width="690" height="831" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.191067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,8 +514,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.81317496" weight="0.36819485" />
       <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.49837837" weight="0.3295129" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28701407" side_tool="true" visible="true" weight="0.34763947" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.71298593" visible="true" weight="0.34763947" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2888889" side_tool="true" visible="true" weight="0.55078685" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7111111" visible="true" weight="0.55078685" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49712092" weight="0.3283582" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="13" weight="0.3295129" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" sideWeight="0.4990403" weight="0.32985073" />
@@ -608,16 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myproject/myapp/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -650,44 +734,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/add_new_post.html">
+    <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/list.html">
+    <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/add_new_post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="54">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/show_by_title.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="258">
+          <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -700,6 +764,46 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/myapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/myapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
