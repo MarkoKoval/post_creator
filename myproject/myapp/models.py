@@ -10,10 +10,11 @@ class Document(models.Model):
     search_tags = models.ManyToManyField('Tag',blank = True, related_name='posts')
 
     def get_absolute_url(self):
-        print('ERIGAL')
-        print("id "+str(self.id))
-        id = self.id
-        return reverse('cr', kwargs={'id': id})
+
+        return reverse('delete', kwargs={'id': self.id})
+
+    def show_post(self):
+        pass
 
 
 class Tag(models.Model):

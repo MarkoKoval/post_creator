@@ -28,7 +28,7 @@
       <form name = "form" id = "your_form_id" action="{% url "list" %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}
 
-                <select name = "ggr" id = "sel" class = "js-example-tokenizer" class="form-control" multiple="multiple" line-height = 9 placeholder="Write">
+                <select name = "search_tags" id = "sel" class = "js-example-tokenizer" class="form-control" multiple="multiple" line-height = 9 placeholder="Write">
 
                 </select>
             <p>{{ form.non_field_errors }}</p>

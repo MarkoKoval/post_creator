@@ -65,7 +65,7 @@
                     {% endfor %}
                 <br>
               <a  class="btn btn-primary" href = "{{ document.get_absolute_url }}">Delete Post</a>
-              <a  class="btn btn-primary" href = "">Show Post</a>
+              <a  class="btn btn-primary" href = "{{ document.show_post }}">Show Post</a>
           </div>
         </div>
         </div>
@@ -76,21 +76,21 @@
 
   {% if documents_length > 12 %}
  {% if documents.has_previous %}
-        <a class="btn btn-outline-info mb-4" href="art/1">First</a>
-        <a class="btn btn-outline-info mb-4" href="/art/{{ documents.previous_page_number }}">Previous</a>
+        <a class="btn btn-outline-info mb-4" href="page/1">First</a>
+        <a class="btn btn-outline-info mb-4" href="/page/{{ documents.previous_page_number }}">Previous</a>
       {% endif %}
 
       {% for num in documents.paginator.page_range %}
         {% if documents.number == num %}
-          <a class="btn btn-info mb-4" href="/art/{{ num }}">{{ num }}</a>
+          <a class="btn btn-info mb-4" href="/page/{{ num }}">{{ num }}</a>
         {% elif num > documents.number|add:'-3' and num < documents.number|add:'3' %}
-          <a class="btn btn-outline-info mb-4" href="/art/{{ num }}">{{ num }}</a>
+          <a class="btn btn-outline-info mb-4" href="/page/{{ num }}">{{ num }}</a>
         {% endif %}
       {% endfor %}
 
       {% if documents.has_next %}
-        <a class="btn btn-outline-info mb-4" href="/art/{{ documents.next_page_number }}">Next</a>
-        <a class="btn btn-outline-info mb-4" href="/art/{{ documents.paginator.num_pages }}">Last</a>
+        <a class="btn btn-outline-info mb-4" href="/page/{{ documents.next_page_number }}">Next</a>
+        <a class="btn btn-outline-info mb-4" href="/page/{{ documents.paginator.num_pages }}">Last</a>
       {% endif %}
  {% endif %}
 <a class="btn btn-primary" href="{% url 'create' %}">Create Post </a>
